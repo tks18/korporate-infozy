@@ -1,0 +1,57 @@
+# Site
+name: 'Info-Biz'
+description: 'Info-Biz is the Digital News Website for Business.'
+group: 'Infozy'
+group-url: 'https://focuspocus.tk'
+baseurl: ''
+disqus: 'info-biz-1'
+email: 'infozy.news@gmail.com'
+siteurl: 'https://business.focuspocus.tk'
+newsletter: 'infozy.news@gmail.com'
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    shan:
+      name:           'Sudharshan TK'
+      site:           https://about.focuspocus.tk
+      avatar:         'https://s.gravatar.com/avatar/a444de646212803b37630a7a91e5bc22?s=200'
+      bio:            "CA Finalist having a Passion in Web and Computer Technologies. The Result is the Wonderful Thing You See Here."
+      email:          tksudharshan@gmail.com
+
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: 'Sudharshan TK'
+      avatar: https://s.gravatar.com/avatar/a444de646212803b37630a7a91e5bc22?s=500
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+destination: ../../Main/infozy-business-html
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
