@@ -4,7 +4,7 @@ title:  "It’s raining deals in August, and here’s what is best for you"
 author: shan
 categories: [ E-Commerce ]
 image: "https://i.ibb.co/6BYfk11/the-logo-of-amazon-is-seen-on-the-door-of-an-amazon-books-retail-store-in-new-york.jpg"
-tags: [amazon, flipkart, featured]
+tags: [amazon, flipkart]
 date: 2019-08-02 11:28:00
 ---
 <li>With <keyword keytype="person" smid="0" usetype="2" keywordseo="Independence-Day" keynameseo="Independence-day" actualkeyword="Independence day">Independence Day</keyword> around the corner, most Indian brands are set to offer great discounts on their platform. </li>

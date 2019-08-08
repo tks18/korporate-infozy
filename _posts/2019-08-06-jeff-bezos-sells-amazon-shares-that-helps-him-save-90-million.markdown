@@ -4,7 +4,7 @@ title:  "Jeff Bezos beats the market by selling $2.8 billion Amazon shares befor
 author: shan
 categories: [ Investments ]
 image: "https://i.ibb.co/VJzfL6S/caadaa60b38aba649a535a109ceffa97-edited.jpg"
-tags: [amazon, sticky , featured]
+tags: [amazon, featured]
 date: 2019-08-05 19:25:00
 ---
 <li>Amazon&rsquo;s stock plummeted by 3.19% on Monday.<br></li>

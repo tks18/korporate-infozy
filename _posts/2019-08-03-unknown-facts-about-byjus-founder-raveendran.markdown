@@ -4,7 +4,7 @@ title:  "Unknown facts about Byju's founder Raveendran"
 author: shan
 categories: [ Facts ]
 image: "https://i.ibb.co/mJwjgBW/75e0e664e4b683e8dc6ecc22b26e2ca9.jpg"
-tags: [byju, raveendran, featured]
+tags: [byju, raveendran]
 date: 2019-08-02 12:39:00
 ---
 

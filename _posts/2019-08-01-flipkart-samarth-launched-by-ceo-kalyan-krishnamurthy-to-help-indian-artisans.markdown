@@ -4,7 +4,7 @@ title:  "Indian crafts, weaves and others will now be on sale on Flipkart, as a 
 author: shan
 categories: [ E-Commerce ]
 image: "https://i.ibb.co/YB8ktz8/samarth.jpg"
-tags: [flipkart, crafts, sticky]
+tags: [flipkart, crafts]
 date: 2019-07-31 18:04:00
 ---
 

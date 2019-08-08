@@ -4,7 +4,7 @@ title:  "Amazon's Hyderabad warehouse will get much bigger as it partners with G
 author: shan
 categories: [ E-Commerce ]
 image: "https://i.ibb.co/XSg0CJ7/amazon-training.jpg"
-tags: [amazon, gmr, featured]
+tags: [amazon, gmr]
 date: 2019-08-01 16:56:00
 ---
  <li>Amazon has partnered with GMR to expand its Hyderabad <keyword keytype="person" smid="0" usetype="2" keywordseo="fulfillment-centre" keynameseo="Fulfillment-centre" actualkeyword="Fulfillment centre">fulfillment centre</keyword>. </li>
