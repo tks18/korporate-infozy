@@ -1,13 +1,13 @@
 # Site
-name: 'Info-Biz'
-description: 'Info-Biz is the Digital News Website for Business.'
-group: 'Infozy'
-group-url: 'https://focuspocus.tk'
+name: 'Korporate'
+description: 'Korporate from Infozy is the Digital News Website for Business.'
+group: "Infozy"
+group-url: "https://infozy.tk"
 baseurl: ''
-disqus: 'info-biz-1'
-email: 'infozy.news@gmail.com'
-siteurl: 'https://business.focuspocus.tk'
-newsletter: 'infozy.news@gmail.com'
+disqus: 'read-write-tech'
+email: 'tksudharshan@infozy.tk'
+siteurl: 'https://korporate.infozy.tk'
+newsletter: 'tksudharshan@infozy.tk'
 
 include: ["_pages"]
 permalink: /:title/
@@ -21,15 +21,28 @@ plugins:
   
 authors:
     shan:
-      name:           'Sudharshan TK'
-      site:           https://about.focuspocus.tk
-      avatar:         'https://s.gravatar.com/avatar/a444de646212803b37630a7a91e5bc22?s=200'
-      bio:            "CA Finalist having a Passion in Web and Computer Technologies. The Result is the Wonderful Thing You See Here."
-      email:          tksudharshan@gmail.com
+      name: 'Sudharshan TK'
+      site: https://shan.infozy.tk
+      avatar: 'https://s.gravatar.com/avatar/c0ec2e063895760baa493c36d2d28387?s=400'
+      bio: "CA Finalist | Android App Developer | Web Developer | Android Debugger<br />Working in Ford Rhodes Parks
+  & Co LLP as a Article Assistant."
+      email: tksudharshan@infozy.tk
+
+# Image Configurations
+
+cdn: https://cdn.statically.io/img/
+image: educate.infozy.tk/assets/images/
+height_thumbnail: 580
+width_thumbnail: 920
+height_post: 1080
+width_post: 1920
+width_home_featured_thumbnail: 720
+height_home_featured_thumbnail: 960
+auto_webp_conversion: true
+
 
 # Defaults
 defaults:
-
   # all posts
   - scope:
       path: "_posts"
@@ -46,7 +59,6 @@ defaults:
       
 # Syntax
 markdown: kramdown
-destination: ../../Main/infozy-business-html
 highlighter: rouge
 
 # Paginate
