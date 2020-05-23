@@ -68,3 +68,4 @@ paginate: 10
 
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+timezone: Asia/Kolkata
