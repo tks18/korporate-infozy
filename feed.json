@@ -1,0 +1,17 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": null,
+  "home_page_url": "/",
+  "feed_url": "/feed.json",
+  "description": null,
+  "favicon": "/assets/img/icons/favicon-96x96.png",
+  "icon": "/assets/icons/apple-touch-icon-114x114.png",
+  "author": {
+      "name": null,
+      "url": "/",
+  },
+  "expired": "false",
+   "items": [
+   	
+  ]
+}
