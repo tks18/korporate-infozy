@@ -5,8 +5,25 @@ layout: default
 <h3 class="font-weight-bold spanborder"><span>{{page.title}}</span></h3>
 <div class="row">
     <div class="col-md-8">
-    {% if page.image %} 
-    <img class="card-img-top mb-5 shadow-lg" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
+    {% assign page_image = '' %}
+        {% if site.auto_webp_conversion %}
+            {% if page.image %}
+                {% if page.image contains "https://" %}
+                    {% assign page_image = post.image | remove: "https://" | prepend: site.cdn | append: "?w=" | append: site.width_post | append: "&h=" | append: site.height_post | append: "&f=auto" %}
+                {% else %}
+                    {% assign page_image = page.image | remove: "businet.infozy.tk/assets/images/" | prepend: site.image | prepend: site.cdn | append: "?w=" | append: site.width_post | append: "&h=" | append: site.height_post | append: "&f=auto" %}
+                {% endif %}
+            {% endif %}
+        {% else %}
+            {% if page.image %}
+                {% if page.image contains "https://" %}
+                    {% assign page_image = page.image | remove: "https://" | prepend: site.cdn | append: "?w=" | append: site.width_post | append: "&h=" | append: site.height_post %}
+                {% else %}
+                    {% assign page_image = page.image | remove: "businet.infozy.tk/assets/images/" | prepend: site.image | prepend: site.cdn | append: "?w=" | append: site.widt_thumbnail | append: "&h=" | append: site.height_post %}
+                {% endif %}
+            {% endif %}
+        {% endif %}   
+    <img class="card-img-top mb-5 shadow-lg" src="{{ page_image }}" alt="{{ page.title }}"> 
     {% endif %} 
     <div class="page-content">
         {{ content }}
