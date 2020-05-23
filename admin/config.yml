@@ -68,8 +68,8 @@ collections:
         name: "body"
         widget: "markdown"
   - label: "Pages"
-    name: "pages"
-    folder: "pages"
+    name: "_pages"
+    folder: "_pages"
     create: true
     slug: "{{slug}}"
     preview_path: "{{slug}}"
