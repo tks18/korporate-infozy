@@ -1,12 +1,13 @@
 # Site
-name: 'Korporate'
-description: 'Korporate from Infozy is the Digital News Website for Business.'
+name: 'Businet'
+description: 'Businet from Infozy is the Digital News Website for Business.'
+subtitle: "Bizzz-Newss"
 group: "Infozy"
 group-url: "https://infozy.tk"
 baseurl: ''
 disqus: 'read-write-tech'
 email: 'tksudharshan@infozy.tk'
-siteurl: 'https://korporate.infozy.tk'
+siteurl: 'https://businet.infozy.tk'
 newsletter: 'tksudharshan@infozy.tk'
 
 include: ["_pages"]
@@ -14,7 +15,6 @@ permalink: /:title/
 
 # Plugins
 plugins: 
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
@@ -22,6 +22,7 @@ plugins:
 authors:
     shan:
       name: 'Sudharshan TK'
+      display_name: "Shan.tk"
       site: https://shan.infozy.tk
       avatar: 'https://s.gravatar.com/avatar/c0ec2e063895760baa493c36d2d28387?s=400'
       bio: "CA Finalist | Android App Developer | Web Developer | Android Debugger<br />Working in Ford Rhodes Parks
@@ -31,7 +32,7 @@ authors:
 # Image Configurations
 
 cdn: https://cdn.statically.io/img/
-image: educate.infozy.tk/assets/images/
+image: businet.infozy.tk/assets/images/
 height_thumbnail: 580
 width_thumbnail: 920
 height_post: 1080
